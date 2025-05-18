@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+  font-family: Inter;
+  background-color: #282d35;
+  color: whitesmoke;
+}
+h1 {
+  text-align: center;
+}
+
+details {
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #3b3f46;
+  border-radius: 5px;
+  border: 1px solid #444;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+summary::marker {
+  display: none; /* hides default triangle */
+}
