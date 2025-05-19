@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(127, 255, 212, 0.562);
+  font-family: Inter, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+form > input,
+select,
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+form > button:hover {
+  background-color: rgba(1, 63, 42, 0.747);
+  color: whitesmoke;
+}
+textarea {
+  margin-bottom: 20px;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #262626;
+  margin-bottom: 20px;
+}
